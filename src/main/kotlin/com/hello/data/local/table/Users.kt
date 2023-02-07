@@ -1,4 +1,4 @@
-package com.hello.data.table
+package com.hello.data.local.table
 
 import org.jetbrains.exposed.dao.id.IntIdTable
 import org.jetbrains.exposed.sql.Column

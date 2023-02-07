@@ -1,6 +1,6 @@
-package com.hello.data.entity
+package com.hello.data.local.entity
 
-import com.hello.data.table.Users
+import com.hello.data.local.table.Users
 import org.jetbrains.exposed.dao.IntEntity
 import org.jetbrains.exposed.dao.IntEntityClass
 import org.jetbrains.exposed.dao.id.EntityID

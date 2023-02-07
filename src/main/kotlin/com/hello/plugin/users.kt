@@ -1,10 +1,11 @@
 package com.hello.plugin
 
-import com.hello.data.entity.User
+import com.hello.data.local.entity.User
 import io.ktor.server.application.*
 import io.ktor.server.response.*
 import io.ktor.server.routing.*
 import org.jetbrains.exposed.sql.transactions.transaction
+
 
 fun Route.users() {
     route("/user") {
